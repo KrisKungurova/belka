@@ -1,0 +1,28 @@
+.promo {
+  background-image: url(../img/promo-bg.jpg);
+  padding-top: 115px;
+  padding-bottom: 370px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: center bottom;
+}
+
+.promo__title {
+  display: inline-block;
+  margin: 0;
+  width: 460px;
+  font-family: "Futura", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.promo__title span {
+  margin-top: 34px;
+  font-family: "Futura", sans-serif;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 40px;
+  float: left;
+}

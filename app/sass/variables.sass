@@ -1,8 +1,30 @@
 //color
-$green:      #6fc089
-$black:      #000000
-$dark-grey:  #111111
-$white:      #ffffff
+$green:           #6fc089
+$black:           #000000
+$dark_grey:       #111111
+$white:           #ffffff
 
 //fonts-style
-$futura:     "Futura", sans-serif
+$font_futura:     "Futura", sans-serif
+$font_sans:       "PT Sans", sans-serif
+
+//title-style
+%title
+  font-family: $font_futura
+  font-weight: bold
+  font-size: 40px
+  line-height: 40px
+  color: $dark_grey
+  text-align: center
+//btn-enroll-style
+%btn-enroll
+  border: 2px solid $black
+  text-decoration: none
+  text-transform: uppercase
+  padding: 10px 18px
+  color: $green
+  font-family: $font_futura
+  font-weight: bold
+  font-size: 15px
+  text-align: center
+  transition: all .5s

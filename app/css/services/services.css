@@ -1,0 +1,22 @@
+.services {
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.services__title {
+  font-family: "Futura", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 35px;
+  color: #111;
+  text-align: center;
+}
+
+.services__text-title {
+  font-family: "Futura", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 35px;
+  clear: both;
+  text-align: center;
+}

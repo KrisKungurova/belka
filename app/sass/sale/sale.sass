@@ -1,0 +1,51 @@
+.sale
+  background-image: url(../img/blairhabenicht_crispincannon.jpg)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center top
+  padding-top: 50px
+  padding-bottom: 45px
+  color: $white
+  text-align: center
+
+  &__title
+    @extend %title
+    color: $white
+
+  &__row
+    padding-top: 40px
+    padding-bottom: 60px
+  
+  &__block
+    text-align: center
+    padding-left: 90px
+    padding-right: 90px
+
+    &--green
+      color: $green
+
+  &__block-title
+    font-family: $font_futura
+    font-weight: normal
+    font-size: 20px
+    line-height: 35px
+  
+  &__block-text
+    padding-top: 15px
+    font-family: $font_futura
+    font-weight: normal
+    font-size: 20px
+    line-height: 23px
+
+  &__btn
+    @extend %btn-enroll
+    color: $green
+    border: 2px solid $white
+
+  &__btn:hover
+    color: $white
+    background-color: $green
+
+  &__btn:active
+    color: $green
+    background-color: transparent

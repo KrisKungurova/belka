@@ -4,143 +4,167 @@
   <meta charset="UTF-8">
   <title>Ice Ace</title>
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+  <!-- Промо блок -->
   <div class="promo">
     <div class="container">
-      <h1 class="main-title">Школа сноуборда и горных лыж <span>в Санкт-Петербурге</span></h1>
+      <div class="row">
+        <h1 class="promo__title col-lg-5">Школа сноуборда и горных лыж <span>в Санкт-Петербурге</span></h1>
+      </div>
     </div>
   </div>
 
+  <!-- Навигация и шапка страницы -->
   <header class="page-header">
     <div class="container">
       <div class="row">
-        <img src="img/logo.png" alt="" class="logo-img">
-        <nav class="nav-header">
-          <ul class="nav-header-list">
-            <li class="nav-header-item"><a class="nav-header-link" href="schedule.html">расписание</a></li>
-            <li class="nav-header-item"><a class="nav-header-link" href="instructors.html">инструкторы</a></li>
-            <li class="nav-header-item"><a class="nav-header-link" href="#">стоимость</a></li>
-            <li class="nav-header-item"><a class="nav-header-link" href="#">как добраться</a></li>
-          </ul>
-        </nav>
-        <div class="phone">
-          <a href="tel:88008080" class="phone-link">8 (800) 800-80-80</a>
-        </div>
+        <div class="page-header__row">
+          <img src="img/logo.png" alt="" class="page-header__logo col-lg-2">
+          <nav class="nav-header col-lg-6">
+            <ul class="nav-header__list">
+              <li class="nav-header__item"><a class="nav-header__link" href="schedule.html">расписание</a></li>
+              <li class="nav-header__item"><a class="nav-header__link" href="instructors.html">инструкторы</a></li>
+              <li class="nav-header__item"><a class="nav-header__link" href="#">стоимость</a></li>
+              <li class="nav-header__item"><a class="nav-header__link" href="#">как добраться</a></li>
+            </ul>
+          </nav>
+          <div class="page-header__phone col-lg-3">
+            <a href="tel:88008080" class="page-header__phone-link">8 (800) 800-80-80</a>
+          </div>
 
-        <a href="schedule.html" class="btn">
-          Записаться
-        </a>
+          <div class="page-header__btn col-lg-1">
+            <a href="schedule.html" class="page-header__btn-link">
+            Записаться
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </header>
 
   <main>
+    <!-- Блок "Наши услуги" -->
     <section class="services">
       <div class="container">
-        <h2 class="title">Наши услуги</h2>
-        <span class="text-title clearfix">Для взрослых и детей 6+ / любого уровня подготовки</span>
+        <h2 class="services__title">Наши услуги</h2>
+        <span class="services__text-title clearfix">Для взрослых и детей 6+ / любого уровня подготовки</span>
         
-        <div class="row">
-          <div class="services-wrapper services-img"></div>
-          <div class="services-wrapper services-img2"></div>
+        <div class="services__row row">
+          <div class="services__wrapper col-lg-4">
+            <img src="../img/as_ski.jpg" alt="photo" class="services__wrapper-img">
+          </div>
+          <div class="services__wrapper col-lg-4">
+            <img src="../img/as_ski3.jpg" alt="photo" class="services__wrapper-img">
+          </div>
 
-          <article class="services-wrapper">
+          <article class="services-desc col-lg-4">
             
-            <h3 class="title-block">Краткий курс</h3>
-            <p class="text-block">Экспресс курс рассчитан на тех, кто хочет повысить свой уровень в короткий срок, узнать новые техники катания и получить лайфхаки "как кататься как чемпион" от опытных инструкторов, подходит как для новичков, так и более опытных</p>
-            <p class="lessons">5 занятий</p>
-            <a class="icon img-next" href="#"></a>
+            <h3 class="services-desc__title">Краткий курс</h3>
+            <p class="services-desc__text">Экспресс курс рассчитан на тех, кто хочет повысить свой уровень в короткий срок, узнать новые техники катания и получить лайфхаки "как кататься как чемпион" от опытных инструкторов, подходит как для новичков, так и более опытных</p>
+            <div class="services-desc__footer">
+              <p class="services-desc__footer-lessons">5 занятий</p>
+              <a class="icon services-desc__footer-icon" href="#"></a>
+            </div>
           </article>
 
-          <article class="services-wrapper">
-            <h3 class="title-block">Разовое посещение</h3>
-            <p class="text-block">Впервые здесь? Тогда эта возможность точно для вас. Приходите на разовое занятие и проникнитесь атмосферой школы, познакомитесь с инструкторами и узнаете о том, как проходит обучение. После занятия мы определим ваш уровень и прикинем план занятий</p>
-            <p class="lessons">3 часа</p>
-            <a class="icon img-next" href="#"></a>
+          <article class="services-desc col-lg-4">
+            <h3 class="services-desc__title">Разовое посещение</h3>
+            <p class="services-desc__text">Впервые здесь? Тогда эта возможность точно для вас. Приходите на разовое занятие и проникнитесь атмосферой школы, познакомитесь с инструкторами и узнаете о том, как проходит обучение. После занятия мы определим ваш уровень и прикинем план занятий</p>
+            <div class="services-desc__footer">
+              <p class="services-desc__footer-lessons">3 часа</p>
+              <a class="icon services-desc__footer-icon" href="#"></a>
+            </div>
           </article>
 
-          <div class="services-wrapper services-img3"></div>
+          <div class="services__wrapper col-lg-4">
+            <img src="../img/as_ski2.jpg" alt="photo" class="services__wrapper-img">
+          </div>
 
-          <article class="services-wrapper">
+          <article class="services-desc col-lg-4">
             
-            <h3 class="title-block">Полный курс</h3>
-            <p class="text-block">Продвинутый курс для самых вдохновленных горными лыжами и сноубордом, здесь вы не только улучшите свою технику, но и получите много дополнительных обучающих материалов и видео-уроков от участников мировых чемпионатов, здесь вы узнаете все</p>
-            <p class="lessons">10 занятий</p>
-            <a class="icon img-next" href=""></a>
+            <h3 class="services-desc__title">Полный курс</h3>
+            <p class="services-desc__text">Продвинутый курс для самых вдохновленных горными лыжами и сноубордом, здесь вы не только улучшите свою технику, но и получите много дополнительных обучающих материалов и видео-уроков от участников мировых чемпионатов, здесь вы узнаете все</p>
+            <div class="services-desc__footer">
+              <p class="services-desc__footer-lessons">10 занятий</p>
+              <a class="icon services-desc__footer-icon" href=""></a>
+            </div>
           </article>
         </div>
       </div>
     </section>
       
+    <!-- Блок Почему мы -->
     <section class="advantages">
       <div class="container">
-        <h2 class="title">Почему мы</h2>
+        <h2 class="advantages__title">Почему мы</h2>
 
-        <div class="row">
-          <article class="advantages-block">
-            <div class="icon advantages-icon-block" alt="guarantee" ></div>
-            <h3 class="text-title-advantages">100% гарантия <br> результата</h3>
-            <p class="text-advantages">Уверены - научиться кататься и улучшить свой навык может каждый, и мы гарантируем результат уже через 5 занятий</p>
+        <div class="advantages__row row">
+          <article class="advantages__block col-lg-4">
+            <div class="icon advantages__block-icon" alt="guarantee" ></div>
+            <h3 class="advantages__block-title">100% гарантия <br> результата</h3>
+            <p class="advantages__block-text">Уверены - научиться кататься и улучшить свой навык может каждый, и мы гарантируем результат уже через 5 занятий</p>
           </article>
 
-          <article class="advantages-block">
-            <div class="icon advantages-icon-block2" alt="experience" ></div>
-            <h3 class="text-title-advantages">Опытные<br> инструкторы</h3>
-            <p class="text-advantages">У всех инструкторов школы есть международный сертификат, который дает право обучать катанию на сноуборде и горных лыжах</p>
+          <article class="advantages__block col-lg-4">
+            <div class="icon advantages__block-icon2" alt="experience" ></div>
+            <h3 class="advantages__block-title">Опытные<br> инструкторы</h3>
+            <p class="advantages__block-text">У всех инструкторов школы есть международный сертификат, который дает право обучать катанию на сноуборде и горных лыжах</p>
           </article>
 
-          <article class="advantages-block">
-            <div class="icon advantages-icon-block3" alt="individually" ></div>
-            <h3 class="text-title-advantages">Индивидуальные занятия<br> и расписание</h3>
-            <p class="text-advantages">Мы любим индивидуальный подход, поэтому все занятия с тренером - персональные, а график обучения составляете вы сами</p>
+          <article class="advantages__block col-lg-4">
+            <div class="icon advantages__block-icon3" alt="individually" ></div>
+            <h3 class="advantages__block-title">Индивидуальные занятия<br> и расписание</h3>
+            <p class="advantages__block-text">Мы любим индивидуальный подход, поэтому все занятия с тренером - персональные, а график обучения составляете вы сами</p>
           </article>
 
-          <article class="advantages-block">
-            <div class="icon advantages-icon-block4" src="#" alt="inventory" ></div>
-            <h3 class="text-title-advantages">Инвентарь и одежда</h3>
-            <p class="text-advantages">Все, что необходимо для комфортного занятия - включено в стоимость, с нами не нужно беспокоиться об аренде снаряжения и покупке дорогой одежды</p>
+          <article class="advantages__block col-lg-4">
+            <div class="icon advantages__block-icon4" src="#" alt="inventory" ></div>
+            <h3 class="advantages__block-title">Инвентарь и одежда</h3>
+            <p class="advantages__block-text">Все, что необходимо для комфортного занятия - включено в стоимость, с нами не нужно беспокоиться об аренде снаряжения и покупке дорогой одежды</p>
           </article>
 
-          <article class="advantages-block">
-            <div class="icon advantages-icon-block5" alt="security" ></div>
-            <h3 class="text-title-advantages">Безопасность</h3>
-            <p class="text-advantages">Каждый инструктор подбирает технику катания и угол склона индивидуально под ваш уровень и гарантирует 100% безопасность во время занятия</p>
+          <article class="advantages__block col-lg-4">
+            <div class="icon advantages__block-icon5" alt="security" ></div>
+            <h3 class="advantages__block-title">Безопасность</h3>
+            <p class="advantages__block-text">Каждый инструктор подбирает технику катания и угол склона индивидуально под ваш уровень и гарантирует 100% безопасность во время занятия</p>
           </article>
 
-          <article class="advantages-block">
-            <div class="icon advantages-icon-block6" alt="transfer" ></div>
-            <h3 class="text-title-advantages">Трансфер</h3>
-            <p class="text-advantages">30 минут и вы на месте, столько примерно занимает дорога из центра города до склона на нашем бесплатном трансфере, который легко забронировать</p>
+          <article class="advantages__block col-lg-4">
+            <div class="icon advantages__block-icon6" alt="transfer" ></div>
+            <h3 class="advantages__block-title">Трансфер</h3>
+            <p class="advantages__block-text">30 минут и вы на месте, столько примерно занимает дорога из центра города до склона на нашем бесплатном трансфере, который легко забронировать</p>
           </article>
         </div>
       </div>
     </section>
 
+    <!-- Блок Скидки на абонименты -->
     <section class="sale">
       <div class="container">
-        <h2 class="text-title-sale">Скидки на абонементы</h2>
+        <h2 class="sale__title">Скидки на абонементы</h2>
 
-        <div class="row">
-          <article class="sale-block">
-            <h3 class="title-sale-block">Пробуй</h3>
-            <p class="text-sale-block">Дарим скидку <span>5%</span> новичкам, прошедшим рзовое занятие</p>
+        <div class="sale__row row">
+          <article class="sale__block col-lg-4">
+            <h3 class="sale__block-title">Пробуй</h3>
+            <p class="sale__block-text">Дарим скидку <span class="sale__block--green">5%</span> новичкам, прошедшим рзовое занятие</p>
           </article>
 
-          <article class="sale-block">
-            <h3 class="title-sale-block">Катайся вместе</h3>
-            <p class="text-sale-block">Получи скидку <span>10%</span>, если друг записался по твоей рекомендации</p>
+          <article class="sale__block col-lg-4">
+            <h3 class="sale__block-title">Катайся вместе</h3>
+            <p class="sale__block-text">Получи скидку <span class="sale__block--green">10%</span>, если друг записался по твоей рекомендации</p>
           </article>
 
-          <article class="sale-block">
-            <h3 class="title-sale-block">Учись всей семьей</h3>
-            <p class="text-sale-block">Покупай абонемент для себя и получи скидку <span>15%</span> для ребенка</p>
+          <article class="sale__block col-lg-4">
+            <h3 class="sale__block-title">Учись всей семьей</h3>
+            <p class="sale__block-text">Покупай абонемент для себя и получи скидку <span class="sale__block--green">15%</span> для ребенка</p>
           </article>
         </div>
 
-        <a href="schedule.html" class="btn-sale">записаться</a>
+        <a href="schedule.html" class="sale__btn">записаться</a>
       </div>
     </section>
 
