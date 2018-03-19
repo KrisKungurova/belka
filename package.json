@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KrisKungurova/test-2.git"
+    "url": "git+https://github.com/KrisKungurova/belka.git"
   },
   "author": "KrisKungurova",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KrisKungurova/test-2/issues"
+    "url": "https://github.com/KrisKungurova/belka/issues"
   },
-  "homepage": "https://github.com/KrisKungurova/test-2#readme",
+  "homepage": "https://github.com/KrisKungurova/belka#readme",
   "devDependencies": {
     "browser-sync": "^2.23.6",
     "del": "^3.0.0",
@@ -28,7 +28,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-uglifyjs": "^0.6.2",
-    "imagemin-pngquant": "^5.0.1"
+    "imagemin-pngquant": "^5.1.0"
   },
   "dependencies": {}
 }
