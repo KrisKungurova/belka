@@ -1,0 +1,36 @@
+.command
+  text-align: center
+  
+  &__title
+    @extend %title
+    padding-top: 70px
+    padding-bottom: 45px
+
+  &__desc
+    padding-bottom: 10px
+    background-image: url(../img/NikeSBChronicles-7-Team_hd_1600.jpg)
+    background-repeat: no-repeat
+    background-position: center top
+  
+  &__desc-text
+    padding: 430px 140px 40px 140px
+    font-family: $font_sans
+    font-weight: bold
+    font-size: 15px
+    line-height: 22px
+    color: $dark_grey
+  
+  &__btn
+    @extend %btn-enroll
+    padding: 10px 21px
+    overflow: hidden
+    white-space: nowrap
+    text-overflow: ellipsis
+
+  &__btn:hover
+    color: $white
+    background-color: $green
+
+  &__btn:active
+    color: $green
+    background-color: $white
