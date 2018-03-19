@@ -1,0 +1,82 @@
+.page-header
+  margin: 0 auto
+  padding-top: 30px
+  padding-bottom: 0
+  border-bottom: 0
+
+  &__row
+    display: flex
+    justify-content: space-between
+
+  &__logo
+    padding-right: 13px
+    float: left
+    height: 55px
+    background-repeat: no-repeat
+    background-position: left top
+
+  &__phone
+    
+
+  &__phone-link
+    text-decoration: none
+    color: $dark-grey
+    font-family: $futura
+    font-weight: bold
+    font-size: 22px
+    line-height: 55px
+
+  &__btn
+    display: flex
+    align-self: center
+    justify-content: flex-end
+
+  &__btn-link
+    border: 2px solid $black
+    text-decoration: none
+    text-transform: uppercase
+    padding: 10px 18px
+    color: $green
+    font-family: $futura
+    font-weight: bold
+    font-size: 15px
+    text-align: center
+    transition: all .5s
+
+  &__btn-link:hover 
+    color: $white
+    background-color: $green
+
+  &__btn-link:active 
+    color: $green
+    background-color: $white
+
+.nav-header
+  
+
+  &__list
+    margin-bottom: 0
+    display: flex
+    justify-content: space-between
+    //padding-top: 3px
+
+  &__item
+    display: inline-block
+
+  &__item:last-child 
+    padding-right: 0
+
+  &__link
+    text-decoration: none
+    padding-bottom: 13px
+    font-family: $futura
+    font-weight: normal
+    text-transform: uppercase
+    font-size: 15px
+    line-height: 55px
+    color: $dark-grey
+    transition: all .3s
+
+  &__link:hover 
+    border-bottom: 4px solid $green
+
