@@ -1,0 +1,115 @@
+.page-footer
+  background-image: url(../img/Snowboard-Wallpaper-Nicolas-Muller-Laax-1920x1080.jpg)
+  padding-top: 55px
+  padding-bottom: 100px
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center bottom
+
+  &__row
+    display: flex
+    justify-content: space-between
+
+  &__logo
+    padding-left: 0
+
+  &__logo-img
+
+  &__social
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+  &__social-youtube
+    width: 32px
+    height: 32px
+    background-position: -50px -152px
+    transition: all .5s
+
+    &:active
+      opacity: 1
+
+    &:hover
+      opacity: .7
+
+  &__social-insta
+    width: 32px
+    height: 32px
+    background-position: -158px -43px
+    transition: all .5s
+
+    &:active
+      opacity: 1
+
+    &:hover
+      opacity: .7
+
+  &__social-facebook
+    width: 18px
+    height: 33px
+    background-position: -158px 0
+    transition: all .5s
+
+    &:active
+      opacity: 1
+
+    &:hover
+      opacity: .7
+
+  &__social-vk
+    width: 40px
+    height: 24px
+    background-position: 0 -152px
+    transition: all .5s
+
+    &:active
+      opacity: 1
+
+    &:hover
+      opacity: .7
+
+  &__contact
+    display: flex
+    flex-direction: column
+    text-align: right
+    padding-right: 0
+
+  &__contact-phone
+    @extend %contact
+    font-size: 22px
+
+  &__contact-mail
+    @extend %contact
+    font-size: 20px
+
+  &__copy
+    padding-left: 0
+    padding-top: 45px
+    padding-right: 240px
+
+  &__copy-text
+    @extend %contact
+    font-size: 15px
+    line-height: 22px
+
+  &__nav
+    padding-right: 0
+    padding-left: 0
+    padding-top: 45px
+
+  &__nav-list
+    display: flex
+    justify-content: space-between
+
+  &__nav-item
+
+
+  &__nav-link
+    font-family: $font_futura
+    text-transform: uppercase
+    font-weight: normal
+    font-size: 16px
+    line-height: 35px
+    color: $dark_grey
+    opacity: .8
+
